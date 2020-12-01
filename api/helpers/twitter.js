@@ -12,7 +12,7 @@ class Twitter{
                 count: count
             },
             headers: {
-                "Authorization": "AAAAAAAAAAAAAAAAAAAAAPilJgEAAAAA67Wy01kjKkmwqDsr1mOK5YuBri4%3DF8NrnTX0w778boRKL2DFxRwLAk0EWuBNfsb0o9qNzzoY8PaI63"
+                "Authorization": `Bearer ${process.env.TWITTER_TOKEN_KEY}`
             }
         })
     }
